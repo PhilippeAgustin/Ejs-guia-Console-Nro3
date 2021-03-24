@@ -1,0 +1,12 @@
+public class Program
+{
+	public static void Main()//Ej3
+	{
+		string tecla="";
+		do
+		{
+			Console.Write("Ingrese una tecla: ");
+			tecla=Console.ReadLine();
+			
+		}while(tecla!="x");
+	}
